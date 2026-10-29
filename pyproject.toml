@@ -1,0 +1,27 @@
+[project]
+name = "opencv"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "tyagiayush990",email = "tyagiayush990@gmail.com"}
+]
+requires-python = ">=3.13"
+dependencies = [
+    "deepface (>=0.0.103,<0.0.104)",
+    "werkzeug (>=3.1.9,<4.0.0)",
+    "retina-face (>=0.0.19,<0.0.20)",
+    "speechrecognition (>=3.17.0,<4.0.0)",
+    "pyttsx3 (>=2.99,<3.0)",
+    "sounddevice (>=0.5.6,<0.6.0)",
+    "insightface (>=2.1,<3.0)",
+    "onnxruntime (>=1.31.1,<2.0.0)",
+    "opencv-python (==4.10.0.84)",
+    "winotify (>=1.1.0,<2.0.0)",
+    "win10toast (>=0.9,<0.10)",
+    "setuptools (>=84.2.1,<85.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
